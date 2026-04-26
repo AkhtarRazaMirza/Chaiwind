@@ -4,13 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chaiWaind</title>
+    <title>Chai CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            background: #f5f5f5;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Write your html code with chai classes for example
-    <h1 class="chai-p-1">hello</h1>
-      -->
+    <nav class="chai-p-4 chai-bg-blue chai-text-white">
+        <h1 class="chai-text-lg chai-font-bold">Chai CSS</h1>
+    </nav>
+
+    <section class="chai-p-5">
+        <h2 class="chai-text-lg chai-font-bold chai-m-3">What is Chai CSS?</h2>
+        <p class="chai-m-3">Chai CSS is a simple CSS utility framework written in JavaScript. Instead of writing CSS files, you use class names to style elements.</p>
+        <p class="chai-m-3">Just add chai- prefix to utility class names and JavaScript handles the styling.</p>
+    </section>
+
+    <section class="chai-p-5 chai-bg-blue chai-text-white">
+        <h2 class="chai-text-lg chai-font-bold chai-m-3">How it works</h2>
+        <p class="chai-m-3">Add class names like chai-p-4, chai-bg-red, chai-text-white to your HTML elements.</p>
+        <p class="chai-m-3">When the page loads, the JavaScript finds these classes and applies the corresponding styles.</p>
+    </section>
+
+    <section class="chai-p-5">
+        <h2 class="chai-text-lg chai-font-bold chai-m-3">Utilities</h2>
+        <div class="chai-grid chai-grid-cols-3 chai-gap-2">
+            <div class="chai-p-3">
+                <h3 class="chai-font-bold chai-m-2">Spacing</h3>
+                <p class="chai-text-sm">p-1 to p-5 for padding</p>
+                <p class="chai-text-sm">m-1 to m-5 for margin</p>
+            </div>
+            <div class="chai-p-3">
+                <h3 class="chai-font-bold chai-m-2">Colors</h3>
+                <p class="chai-text-sm">bg-red, bg-blue, bg-green</p>
+                <p class="chai-text-sm">text-white, text-black</p>
+            </div>
+            <div class="chai-p-3">
+                <h3 class="chai-font-bold chai-m-2">Layout</h3>
+                <p class="chai-text-sm">flex, grid, block, hidden</p>
+                <p class="chai-text-sm">w-full, h-screen, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="chai-p-5">
+        <h2 class="chai-text-lg chai-font-bold chai-m-3">Example</h2>
+        <div class="chai-p-4 chai-bg-green chai-text-white chai-m-3 chai-rounded-md">
+            This box uses: chai-p-4 chai-bg-green chai-text-white chai-rounded-md
+        </div>
+        <div class="chai-p-4 chai-border chai-m-3 chai-rounded-md">
+            This box uses: chai-p-4 chai-border chai-rounded-md
+        </div>
+    </section>
+
+    <footer class="chai-p-5 chai-bg-blue chai-text-white chai-text-center">
+        <p class="chai-text-sm">Chai CSS</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 

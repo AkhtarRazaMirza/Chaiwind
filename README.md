@@ -1,4 +1,4 @@
-# Chai CSS ☕
+# Chai CSS
 
 Chai CSS is a small JavaScript project where I tried to create something like Tailwind.
 
@@ -10,7 +10,7 @@ Instead of writing CSS, we can use class names like:
 
 And JavaScript will automatically convert them into styles.
 
-## 📌 How it works
+## How it works
 
 1. When the page loads, the script runs
 2. It selects all elements from the page
@@ -26,7 +26,7 @@ Example:
 chai-p-2 → padding: 8px
 chai-bg-red → background-color: red
 
-## 🧪 Example
+## Example
 
 html
 <div class="chai-p-4 chai-bg-red chai-text-white">
@@ -39,7 +39,7 @@ This will become:
 * background-color: red
 * color: white
 
-## 📦 Utilities Supported
+## Utilities Supported
 
 Right now it supports:
 
@@ -54,30 +54,22 @@ Right now it supports:
 * Position (relative, absolute)
 * Display (block, flex, etc.)
 
-## ⚠️ Limitations
+## Limitations
 
 * Only works with predefined values in the object
 * No responsive support (like sm:, md:)
 * No hover or active states
 * Uses inline styles (not real CSS classes)
 
-## 🚀 What I learned
+## What I learned
 
 * How to use `querySelectorAll`
 * How to loop through elements and classes
 * How to apply styles using JavaScript
 * How utility-based CSS works
 
-## 💡 Future improvements
 
-* Add more utilities
-* Add responsive support
-* Add hover effects
-* Generate real CSS instead of inline styles
-
-
-
-## 🙌 Final Note
+## Final Note
 
 This is a beginner project made for learning.
 It is not perfect, but it helped me understand how CSS frameworks work.

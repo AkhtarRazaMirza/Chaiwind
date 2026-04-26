@@ -54,6 +54,10 @@ const utilities = {
     "text-white": { "color": "#ffffff" },
     "text-black": { "color": "#000000" },
 
+    "text-center": { "text-align": "center" },
+    "text-left": { "text-align": "left" },
+    "text-right": { "text-align": "right" },
+
     "border": { "border": "1px solid #ccc" },
     "border-0": { "border": "none" },
     "rounded-sm": { "border-radius": "4px" },
@@ -72,6 +76,9 @@ const utilities = {
     "hidden": { "display": "none" },
     "inline-flex": { "display": "inline-flex" }
 };
+
+// adding elements to dom witch uswr gives us
+
 
 
 // waiting for page load
